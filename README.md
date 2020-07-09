@@ -18,8 +18,8 @@ Missing validator annotations from [Hibernate Validator](https://hibernate.org/v
 <dependencies>
     ...
     <dependency>
-        <groupId>com.github.muhammadkholidb</groupId>
-        <artifactId>hibernate-common-validator</artifactId>
+        <groupId>com.gitlab.muhammadkholidb</groupId>
+        <artifactId>hibernate-missing-validator</artifactId>
         <version>master-SNAPSHOT</version>
     </dependency>
     ...
