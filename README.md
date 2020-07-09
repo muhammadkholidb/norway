@@ -1,5 +1,5 @@
 # Hibernate Missing Validator
-Missing validator annotations from [Hibernate Validator](https://hibernate.org/validator/).
+The missing validator annotations from [Hibernate Validator](https://hibernate.org/validator/).
 
 ### How to Use
 1. Add jitpack repository to pom.xml
