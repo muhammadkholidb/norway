@@ -22,8 +22,8 @@ public class AcceptValidator implements ConstraintValidator<Accept, Object> {
     public boolean isValid(final Object value, final ConstraintValidatorContext context) {
         boolean valid = value == null || Arrays.asList(values).contains(value);
         if (!valid) {
-            context.buildConstraintViolationWithTemplate(message).addConstraintViolation()
-                    .disableDefaultConstraintViolation();
+            context.disableDefaultConstraintViolation();
+            context.buildConstraintViolationWithTemplate(message).addConstraintViolation();
         }
         return valid;
     }

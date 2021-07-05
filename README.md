@@ -1,3 +1,6 @@
+<a href="https://gitlab.com/muhammadkholidb/hibernate-missing-validator/-/pipelines" target="_blank"><img alt="pipeline status" src="https://gitlab.com/muhammadkholidb/hibernate-missing-validator/badges/master/pipeline.svg" /></a> 
+<a href="https://gitlab.com/muhammadkholidb/hibernate-missing-validator/-/jobs" target="_blank"><img alt="coverage report" src="https://gitlab.com/muhammadkholidb/hibernate-missing-validator/badges/master/coverage.svg" /></a> 
+
 # Hibernate Missing Validator
 
 The missing validator annotations of [Hibernate Validator](https://hibernate.org/validator/).
