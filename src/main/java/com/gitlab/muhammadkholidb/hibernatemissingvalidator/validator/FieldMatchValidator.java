@@ -1,5 +1,7 @@
 package com.gitlab.muhammadkholidb.hibernatemissingvalidator.validator;
 
+import java.util.Objects;
+
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
@@ -26,16 +28,13 @@ public class FieldMatchValidator implements ConstraintValidator<FieldMatch, Obje
         try {
             final Object firstObj = BeanUtils.getProperty(value, firstFieldName);
             final Object secondObj = BeanUtils.getProperty(value, secondFieldName);
-
-            valid = (firstObj == null && secondObj == null) || (firstObj != null && firstObj.equals(secondObj));
+            valid = Objects.equals(secondObj, firstObj);
         } catch (Exception ex) {
             // ignore
         }
         if (!valid) {
-            context.buildConstraintViolationWithTemplate(message)
-                    .addPropertyNode(secondFieldName)
-                    .addConstraintViolation()
-                    .disableDefaultConstraintViolation();
+            context.buildConstraintViolationWithTemplate(message).addPropertyNode(secondFieldName)
+                    .addConstraintViolation().disableDefaultConstraintViolation();
         }
         return valid;
     }

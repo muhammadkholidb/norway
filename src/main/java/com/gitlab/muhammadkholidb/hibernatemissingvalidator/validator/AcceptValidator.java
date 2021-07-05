@@ -20,13 +20,9 @@ public class AcceptValidator implements ConstraintValidator<Accept, Object> {
 
     @Override
     public boolean isValid(final Object value, final ConstraintValidatorContext context) {
-        System.out.println("Value: " + value);
-        System.out.println("Values: " + Arrays.toString(values));
-        boolean valid = (value == null) || Arrays.asList(values).contains(value);
-        System.out.println("Valid: " + valid);
+        boolean valid = value == null || Arrays.asList(values).contains(value);
         if (!valid) {
-            context.buildConstraintViolationWithTemplate(message)
-                    .addConstraintViolation()
+            context.buildConstraintViolationWithTemplate(message).addConstraintViolation()
                     .disableDefaultConstraintViolation();
         }
         return valid;
