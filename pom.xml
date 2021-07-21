@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gitlab.muhammadkholidb</groupId>
-    <artifactId>hibernate-missing-validator</artifactId>
+    <artifactId>nor</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <developers>
         <developer>
@@ -14,9 +14,9 @@
         </developer>
     </developers>
     <scm>
-        <url>https://gitlab.com/muhammadkholidb/hibernate-missing-validator.git</url>
-        <connection>scm:git:https://gitlab.com/muhammadkholidb/hibernate-missing-validator.git</connection>
-        <developerConnection>scm:git:https://gitlab.com/muhammadkholidb/hibernate-missing-validator.git</developerConnection>
+        <url>https://gitlab.com/muhammadkholidb/nor.git</url>
+        <connection>scm:git:https://gitlab.com/muhammadkholidb/nor.git</connection>
+        <developerConnection>scm:git:https://gitlab.com/muhammadkholidb/nor.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     <properties>

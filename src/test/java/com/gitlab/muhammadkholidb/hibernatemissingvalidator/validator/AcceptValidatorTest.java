@@ -9,23 +9,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 public class AcceptValidatorTest extends ValidatorTestBase {
 
     private AcceptValidator validator;
 
     @BeforeEach
     public void setUp() throws NoSuchFieldException, SecurityException {
-        log.info("##### setUp");
-        try {
-            validator = new AcceptValidator();
-            validator.initialize(TestObject.class.getDeclaredField("name").getAnnotation(Accept.class));
-            log.debug("##### validator: " + validator);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        validator = new AcceptValidator();
+        validator.initialize(TestObject.class.getDeclaredField("name").getAnnotation(Accept.class));
     }
 
     @Test
@@ -36,7 +28,6 @@ public class AcceptValidatorTest extends ValidatorTestBase {
 
     @Test
     public void testIsValid_valueIsNull_shoudlReturnTrue() {
-        System.out.println("validator:" + validator);
         boolean result = validator.isValid(null, DEFAULT_CONTEXT);
         assertThat(result, is(true));
     }

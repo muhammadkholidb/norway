@@ -1,13 +1,13 @@
-<a href="https://gitlab.com/muhammadkholidb/hibernate-missing-validator/-/pipelines" target="_blank"><img alt="pipeline status" src="https://gitlab.com/muhammadkholidb/hibernate-missing-validator/badges/master/pipeline.svg" /></a> 
-<a href="https://gitlab.com/muhammadkholidb/hibernate-missing-validator/-/jobs" target="_blank"><img alt="coverage report" src="https://gitlab.com/muhammadkholidb/hibernate-missing-validator/badges/master/coverage.svg" /></a> 
+<a href="https://gitlab.com/muhammadkholidb/nor/-/pipelines" target="_blank"><img alt="pipeline status" src="https://gitlab.com/muhammadkholidb/nor/badges/master/pipeline.svg" /></a> 
+<a href="https://gitlab.com/muhammadkholidb/nor/-/jobs" target="_blank"><img alt="coverage report" src="https://gitlab.com/muhammadkholidb/nor/badges/master/coverage.svg" /></a> 
 
-# Hibernate Missing Validator
+# Nor
 
-The missing validator annotations of [Hibernate Validator](https://hibernate.org/validator/).
+Additional validator annotations for [Hibernate Validator](https://hibernate.org/validator/)
 
 
 #### How to Use
-1. Add maven repository
+1. Add JitPack maven repository
 ```xml
 <repositories>
     <repository>
