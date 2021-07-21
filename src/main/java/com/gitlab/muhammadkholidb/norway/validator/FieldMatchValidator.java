@@ -1,9 +1,9 @@
-package com.gitlab.muhammadkholidb.hibernatemissingvalidator.validator;
+package com.gitlab.muhammadkholidb.norway.validator;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import com.gitlab.muhammadkholidb.hibernatemissingvalidator.annotation.FieldMatch;
+import com.gitlab.muhammadkholidb.norway.annotation.FieldMatch;
 
 import org.apache.commons.beanutils.BeanUtils;
 

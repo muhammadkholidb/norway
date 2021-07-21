@@ -1,4 +1,4 @@
-package com.gitlab.muhammadkholidb.hibernatemissingvalidator.validator;
+package com.gitlab.muhammadkholidb.norway.validator;
 
 import javax.validation.ConstraintValidatorContext;
 

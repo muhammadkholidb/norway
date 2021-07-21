@@ -1,9 +1,9 @@
-package com.gitlab.muhammadkholidb.hibernatemissingvalidator.validator;
+package com.gitlab.muhammadkholidb.norway.validator;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
-import com.gitlab.muhammadkholidb.hibernatemissingvalidator.annotation.Accept;
+import com.gitlab.muhammadkholidb.norway.annotation.Accept;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

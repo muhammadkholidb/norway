@@ -1,7 +1,7 @@
-<a href="https://gitlab.com/muhammadkholidb/nor/-/pipelines" target="_blank"><img alt="pipeline status" src="https://gitlab.com/muhammadkholidb/nor/badges/master/pipeline.svg" /></a> 
-<a href="https://gitlab.com/muhammadkholidb/nor/-/jobs" target="_blank"><img alt="coverage report" src="https://gitlab.com/muhammadkholidb/nor/badges/master/coverage.svg" /></a> 
+<a href="https://gitlab.com/muhammadkholidb/norway/-/pipelines" target="_blank"><img alt="pipeline status" src="https://gitlab.com/muhammadkholidb/norway/badges/master/pipeline.svg" /></a> 
+<a href="https://gitlab.com/muhammadkholidb/norway/-/jobs" target="_blank"><img alt="coverage report" src="https://gitlab.com/muhammadkholidb/norway/badges/master/coverage.svg" /></a> 
 
-# Nor
+# Norway
 
 Additional validator annotations for [Hibernate Validator](https://hibernate.org/validator/)
 
@@ -21,7 +21,7 @@ Additional validator annotations for [Hibernate Validator](https://hibernate.org
 ```xml
 <dependency>
     <groupId>com.gitlab.muhammadkholidb</groupId>
-    <artifactId>nor</artifactId>
+    <artifactId>norway</artifactId>
     <version>master-SNAPSHOT</version>
 </dependency>
 ```

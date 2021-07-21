@@ -1,11 +1,11 @@
-package com.gitlab.muhammadkholidb.hibernatemissingvalidator.validator;
+package com.gitlab.muhammadkholidb.norway.validator;
 
 import java.util.Arrays;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import com.gitlab.muhammadkholidb.hibernatemissingvalidator.annotation.Accept;
+import com.gitlab.muhammadkholidb.norway.annotation.Accept;
 
 public class AcceptValidator implements ConstraintValidator<Accept, Object> {
 
