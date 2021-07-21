@@ -21,7 +21,7 @@ Additional validator annotations for [Hibernate Validator](https://hibernate.org
 ```xml
 <dependency>
     <groupId>com.gitlab.muhammadkholidb</groupId>
-    <artifactId>hibernate-missing-validator</artifactId>
+    <artifactId>nor</artifactId>
     <version>master-SNAPSHOT</version>
 </dependency>
 ```
