@@ -2,23 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.gitlab.muhammadkholidb</groupId>
     <artifactId>norway</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
-    <developers>
-        <developer>
-            <id>muhammadkholidb</id>
-            <name>Muhammad Kholid B</name>
-            <roles>
-                <role>owner</role>
-                <role>developer</role>
-            </roles>
-        </developer>
-    </developers>
-    <scm>
-        <url>https://gitlab.com/muhammadkholidb/nor.git</url>
-        <connection>scm:git:https://gitlab.com/muhammadkholidb/nor.git</connection>
-        <developerConnection>scm:git:https://gitlab.com/muhammadkholidb/nor.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
+    <version>0.0.1-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -144,9 +128,6 @@
                 <version>1.16.0</version>
                 <configuration>
                     <mvnExecutable>./mvnw</mvnExecutable>
-                    <gitFlowConfig>
-                        <developmentBranch>master</developmentBranch>
-                    </gitFlowConfig>
                 </configuration>
             </plugin>
         </plugins>
